@@ -1,5 +1,6 @@
 print("--- Ejercicio 1 ---")
-#Paso 1: Crear una clase llamada Perro con las siguientes características: nombre, raza, edad, sexo, peso, color, estatus y tipo de perro (pequeño o grande).
+#Paso 1: Crear una clase llamada Perro con las siguientes características: 
+# nombre, raza, edad, sexo, peso, color, estatus y tipo de perro (pequeño o grande).
 
 class Perro:
     def __init__(self, nombre, raza, edad, sexo, peso, color, estatus, tipo):
@@ -65,6 +66,8 @@ class Perro:
     
 #Paso 2: Crear una lista llamada base_datos y agregar varios perros a esta lista.
 
+#En este paso generalizamos nada mas los datos de los perros en la bd.
+
 base_datos = []
 
 perro1 = Perro("Buddy", "Golden Retriever", 4, "Macho", 10.5, "Blanco y Gris", "ATENDIDO", "Pequeño")
@@ -128,7 +131,8 @@ if seleccionar_perro_desatender >= 1 and seleccionar_perro_desatender <= 5:
     perro_seleccionado_desatender.mostrar_datos()
     print("El perro ha sido desatendido correctamente.")
 
-#Paso 7: Crear un bucle para mostrar los datos de cada perro en la lista en pantalla después de modificar o desatender algunos.
+#Paso 7: Crear un bucle para mostrar los datos de cada perro en la lista en pantalla 
+# después de modificar o desatender algunos.
 
 print("---------------------------------------------")
 
