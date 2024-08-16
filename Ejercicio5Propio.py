@@ -39,7 +39,6 @@ menu = [
     Plato("Tarta de Queso", 6.50)
 ]
 
-# Ejemplo de uso
 print("Bienvenido al sistema de pedidos del restaurante.")
 cliente = input("Ingrese el nombre del cliente: ")
 pedido = Pedido(cliente)
